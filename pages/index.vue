@@ -20,4 +20,18 @@ import AboutAdvisorSection from '@/components/landing/AboutAdvisorSection.vue'
 import TestimonialsSection from '@/components/landing/TestimonialsSection.vue'
 import FAQSection from '@/components/landing/FAQSection.vue'
 import FinalCTASection from '@/components/landing/FinalCTASection.vue'
+import { useSEO } from '@/composables/useSEO'
+
+useSEO({
+  title: 'Asesor financiero en Costa Rica | Invierte desde cero',
+  description:
+    'Aprende a invertir desde cero con asesoría financiera personalizada para lograr tu libertad financiera en Costa Rica.',
+  keywords: [
+    'inversiones Costa Rica',
+    'asesor financiero',
+    'educación financiera',
+    'retiro anticipado',
+    'finanzas personales',
+  ],
+})
 </script>

@@ -73,3 +73,21 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Analytics y Search Console
+
+### ¿Qué es Google Analytics 4 (GA4) y para qué sirve?
+GA4 permite medir el tráfico y las acciones que realizan los usuarios en tu sitio. Con estos datos puedes entender qué secciones funcionan mejor y optimizar la conversión.
+
+**Configuración básica:**
+1. Crea una propiedad en [analytics.google.com](https://analytics.google.com).
+2. Genera un flujo web y copia el *ID de medición*.
+3. Inserta la etiqueta de GA4 en tu proyecto (por ejemplo, mediante un plugin o directamente en `app.vue`).
+
+### ¿Qué es Google Search Console y por qué lo necesitas?
+Search Console muestra cómo Google ve tu sitio. Sirve para monitorear el rendimiento en las búsquedas, detectar errores de indexación y enviar sitemaps.
+
+**Configuración básica:**
+1. Accede a [search.google.com/search-console](https://search.google.com/search-console).
+2. Añade tu dominio y verifica la propiedad (DNS recomendado).
+3. Envía el sitemap generado por Nuxt para que Google rastree tu contenido.

@@ -1,9 +1,16 @@
 <template>
-  <section role="banner" class="py-12">
+  <section role="banner" aria-labelledby="hero-title" class="py-12">
     <slot>
-      <VImg :src="hero.image" :alt="hero.imageAlt" cover height="500" class="d-flex align-center">
+      <VImg
+        :src="hero.image"
+        :alt="hero.imageAlt"
+        cover
+        height="500"
+        class="d-flex align-center"
+        loading="lazy"
+      >
         <VContainer class="text-center text-white">
-          <h1 class="text-h4 text-sm-h2 font-weight-bold">{{ hero.title }}</h1>
+          <h1 id="hero-title" class="text-h4 text-sm-h2 font-weight-bold">{{ hero.title }}</h1>
           <p class="text-subtitle-1 text-sm-h5">{{ hero.subtitle }}</p>
           <VBtn
             color="secondary"
