@@ -50,12 +50,12 @@ const services = {
     {
       title: 'Programa "Invierte desde Cero"',
       description:
-        'Curso guiado paso a paso para principiantes. Aprende los fundamentos de inversión y construye un plan para lograr tu libertad financiera anticipada.',
+        'Programa guiado paso a paso para principiantes. Aprende los fundamentos de inversión y construye un plan para lograr tu retiro anticipado.',
     },
   ],
   cta: {
     text: 'Quiero más información',
-    link: buildLink('521234567890', 'Hola, estoy interesado en sus servicios'),
+    link: buildLink('50664355539', 'Hola, estoy interesado en sus servicios'),
     ariaLabel: 'Abrir WhatsApp para más información de servicios',
   },
 };

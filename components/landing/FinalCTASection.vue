@@ -30,7 +30,7 @@ const finalCTA = {
   primaryCTA: {
     text: 'Iniciar chat por WhatsApp',
     icon: 'mdi-whatsapp',
-    link: buildLink('521234567890', 'Hola, quiero empezar a invertir'),
+    link: buildLink('50664355539', 'Hola, quiero empezar a invertir'),
     ariaLabel: 'Iniciar chat de WhatsApp con asesor',
   },
 };

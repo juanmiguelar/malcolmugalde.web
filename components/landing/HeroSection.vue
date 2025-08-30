@@ -41,7 +41,7 @@ const hero = {
   primaryCTA: {
     text: 'Hablar por WhatsApp',
     icon: 'mdi-whatsapp',
-    link: buildLink('521234567890', 'Hola, quiero más información'),
+    link: buildLink('50664355539', 'Hola, quiero más información'),
     ariaLabel: 'Abrir chat de WhatsApp con asesor financiero',
   },
 };
