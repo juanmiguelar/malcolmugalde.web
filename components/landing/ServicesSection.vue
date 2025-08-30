@@ -3,6 +3,7 @@
     <slot>
       <VContainer class="py-12">
         <h2 id="services-title" class="text-h5 text-sm-h4 mb-6">{{ services.heading }}</h2>
+        <h5>No son cursos pregrabados ni programas impersonales de más de $1000 como tantos que hay allá afuera.</h5>
         <VRow>
           <VCol
             v-for="(service, idx) in services.services"
@@ -50,7 +51,7 @@ const services = {
     {
       title: 'Programa "Invierte desde Cero"',
       description:
-        'Programa guiado paso a paso para principiantes. Aprende los fundamentos de inversión y construye un plan para lograr tu retiro anticipado.',
+        'Un acompañamiento guiado paso a paso para principiantes. Aquí aprenderás directamente conmigo los fundamentos de inversión y construiremos juntos un plan claro para que logres tu retiro anticipado con seguridad y confianza.',
     },
   ],
   cta: {
