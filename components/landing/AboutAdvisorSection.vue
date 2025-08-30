@@ -5,7 +5,13 @@
         <h2 id="about-title" class="text-h5 text-sm-h4 mb-6 text-center">{{ about.heading }}</h2>
         <VRow align="center">
           <VCol cols="12" md="4" class="text-center mb-4 mb-md-0">
-            <VImg :src="about.photo" alt="Foto del asesor" max-width="250" class="rounded-circle mx-auto" />
+            <VImg
+              :src="about.photo"
+              alt="Foto del asesor"
+              max-width="250"
+              class="rounded-circle mx-auto"
+              loading="lazy"
+            />
           </VCol>
           <VCol cols="12" md="8">
             <p class="mb-4">{{ about.bio }}</p>
