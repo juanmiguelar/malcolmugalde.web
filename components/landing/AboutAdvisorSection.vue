@@ -33,7 +33,7 @@
 <script setup lang="ts">
 const about = {
   heading: 'Sobre Mí',
-  photo: 'https://placehold.co/250x250',
+  photo: '/PERFIL.jpeg',
   bio: 'Soy [Nombre Asesor], MBA(c) en Finanzas y asesor de inversiones con más de 5 años de experiencia. He ayudado a más de 50 clientes a dar sus primeros pasos en el mundo de las inversiones de forma segura.',
   credentials: [
     '+5 años de experiencia en inversión',

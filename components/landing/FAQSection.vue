@@ -18,7 +18,7 @@ const faq = {
   heading: 'Preguntas Frecuentes',
   faqs: [
     {
-      question: '¿No tengo mucho dinero, ¿puedo invertir?',
+      question: 'No tengo mucho dinero, ¿puedo invertir?',
       answer:
         'Sí, no necesitas grandes sumas para empezar. Te enseñamos a invertir desde montos pequeños y construir hábito.',
     },

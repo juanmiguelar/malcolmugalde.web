@@ -36,7 +36,7 @@ const { buildLink } = useWhatsApp();
 const hero = {
   title: 'Aprende a invertir desde cero y retírate antes de los 60 años',
   subtitle: 'Asesoría financiera 100% personalizada para lograr tu libertad financiera',
-  image: 'https://placehold.co/1600x500',
+  image: '/terraza.jpeg',
   imageAlt: 'Aprende a invertir desde cero y retírate antes de los 60 años',
   primaryCTA: {
     text: 'Hablar por WhatsApp',
