@@ -34,7 +34,7 @@
 const about = {
   heading: 'Sobre Mí',
   photo: '/PERFIL.jpeg',
-  bio: 'Soy [Nombre Asesor], MBA(c) en Finanzas y asesor de inversiones con más de 5 años de experiencia. He ayudado a más de 50 clientes a dar sus primeros pasos en el mundo de las inversiones de forma segura.',
+  bio: 'Soy Malcolm Ugalde, MBA(c) en Finanzas y asesor de inversiones con más de 5 años de experiencia. He ayudado a más de 50 clientes a dar sus primeros pasos en el mundo de las inversiones de forma segura.',
   credentials: [
     '+5 años de experiencia en inversión',
     'MBA Avanzado en Finanzas (en curso)',
