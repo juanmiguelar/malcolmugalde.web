@@ -1,5 +1,5 @@
 <template>
-  <section aria-labelledby="faq-title" class="py-10 bg-grey-lighten-4">
+  <section aria-labelledby="faq-title" class="py-10">
     <slot>
       <VContainer class="py-12">
         <h2 id="faq-title" class="text-h5 text-sm-h4 mb-6 text-center">{{ faq.heading }}</h2>

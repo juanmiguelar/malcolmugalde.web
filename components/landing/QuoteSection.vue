@@ -15,9 +15,12 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
-  variant: { type: String, default: 'elevated' }
-});
+const props = defineProps<{
+  variant?: 'elevated' | 'flat' | 'text' | 'tonal' | 'outlined' | 'plain'
+}>()
+
+// Set default value separately
+const { variant = 'elevated' } = props
 </script>
 
 <style scoped>
