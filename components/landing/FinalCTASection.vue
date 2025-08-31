@@ -1,5 +1,5 @@
 <template>
-  <section aria-labelledby="cta-title" class="py-12">
+  <section aria-labelledby="cta-title" class="py-12 bg-grey-lighten-4">
     <slot>
       <VContainer class="py-12 text-center">
         <h2 id="cta-title" class="text-h5 text-sm-h4 mb-4">{{ finalCTA.heading }}</h2>

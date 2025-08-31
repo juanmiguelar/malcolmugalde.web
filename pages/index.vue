@@ -3,6 +3,7 @@
     <HeroSection />
     <ProblemSection />
     <SolutionSection />
+    <QuoteSection variant="outlined" />
     <ServicesSection />
     <AboutAdvisorSection />
     <TestimonialsSection />
@@ -15,6 +16,7 @@
 import HeroSection from '@/components/landing/HeroSection.vue'
 import ProblemSection from '@/components/landing/ProblemSection.vue'
 import SolutionSection from '@/components/landing/SolutionSection.vue'
+import QuoteSection from '@/components/landing/QuoteSection.vue'
 import ServicesSection from '@/components/landing/ServicesSection.vue'
 import AboutAdvisorSection from '@/components/landing/AboutAdvisorSection.vue'
 import TestimonialsSection from '@/components/landing/TestimonialsSection.vue'
