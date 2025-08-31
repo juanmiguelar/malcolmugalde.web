@@ -3,7 +3,6 @@
     <slot>
       <VContainer class="py-12">
         <h2 id="services-title" class="text-h5 text-sm-h4 mb-6">{{ services.heading }}</h2>
-        <h5>No son cursos pregrabados ni programas impersonales de más de $1000 como tantos que hay allá afuera.</h5>
         <VRow>
           <VCol
             v-for="(service, idx) in services.services"
